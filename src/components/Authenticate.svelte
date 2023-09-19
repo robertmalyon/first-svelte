@@ -80,4 +80,29 @@
         background: blue;
     }
 
+    .above, .center {
+        position: absolute;
+        transform: translateY(-50%);
+        pointer-events: none;
+        color: white;
+        border-radius: 4px;
+        padding: 0px 6px;
+        font-size: .8rem;
+    }
+
+    .above {
+        top: 0;
+        left: 24px;
+        background: navy;
+        border: 1px solid blue;
+        font-size: .7rem;
+    }
+
+    .canter {
+        top: 50%;
+        left: 6px;
+        border: 1px solid transparent;
+        opacity: 0;
+    }
+
 </style>
